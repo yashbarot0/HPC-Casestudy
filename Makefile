@@ -42,7 +42,7 @@ $(EXEC_TEST): $(OBJ_TEST)
 
 # Clean the build files
 clean:
-	rm -f $(OBJ_TSQR) $(OBJ_TEST) $(EXEC_TSQR) $(EXEC_TEST) $(EXEC_TSQR_SCALING)
+	rm -f $(OBJ_TSQR) $(OBJ_TEST) $(OBJ_TSQR_SCALING) $(EXEC_TSQR) $(EXEC_TEST) $(EXEC_TSQR_SCALING)
 
 # Run the test program using MPI with 4 processes
 run_test: $(EXEC_TEST)
