@@ -5,3 +5,10 @@ since there is no modle liblapacke available on callan chuck and seagull system 
 I have executed the code on my custom system on Azure system, system config as below
 
 4-core • 16GB RAM • 32GB ROM 
+
+configurations :
+        "name": "Linux",
+        "compilerPath": "/usr/bin/g++",
+        "cStandard": "c17",
+        "cppStandard": "c++14",
+        "intelliSenseMode": "linux-clang-x64"
