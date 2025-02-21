@@ -7,6 +7,7 @@ I have executed the code on my custom system on Azure system, system config as b
 4-core • 16GB RAM • 32GB ROM 
 
 configurations :
+
         "name": "Linux",
         "compilerPath": "/usr/bin/g++",
         "cStandard": "c17",
